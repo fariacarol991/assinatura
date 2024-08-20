@@ -1,0 +1,400 @@
+/* Global properties ======================================================== */
+body
+{
+	background: #f8f8f9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 2em;
+	color: #858484;
+}
+html
+{
+	min-width: 980px;
+}
+html, body
+{
+	height: 100%;
+}
+
+.imagemPerfil
+{
+    width:300px !important;
+    height:300px !important;
+    position:absolute !important;
+    z-index: 1000 !important;
+}
+
+/* Global Structure ============================================================= */
+.container_24
+{
+	position: relative;
+	font-size: .75em;
+}
+
+/* Header */
+.header
+{
+	background: url(../Images/header-tail.jpg) 0 0 repeat-x #fff;
+}
+header
+{
+	height: 509px;
+	overflow: hidden;
+}
+
+/* Content */
+section#content
+{
+	background-color:#F2F2F2;
+	padding-bottom: 20px;
+}
+
+#content ul
+{
+	list-style-type: disc;
+	list-style-position: inside;
+	line-height: 2em;
+}
+
+
+
+/* Left & Right alignment */
+
+.wrapper
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+/*----- form defaults -----*/
+input, select, textarea
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	vertical-align: middle;
+	font-weight: normal;
+}
+
+/*----- other -----*/
+
+p
+{
+	margin-bottom: 17px;
+	margin-top: 10px;
+	line-height: 2em;
+	margin-right: 2em;
+}
+
+
+/*----- txt, links, lines, titles -----*/
+a
+{
+	color: #30383a;
+    transition-delay:0.1s;
+    text-decoration:none;
+	 
+}
+a:hover
+{
+	/*text-decoration: none;*/
+    color: #bcc0c1;
+    text-decoration:none;
+}
+
+h3
+{
+	font-size: 25px;
+	line-height: 1.2em;
+	font-weight: 500;
+	color: #30383a;
+	background: url(../Images/line-hor.gif) 0 100% repeat-x;
+	padding: 0 0 8px 0;
+	margin-bottom: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	text-shadow: #999;
+}
+
+h1
+{
+	font-size: 1.5em;
+	margin: 1em 0 1em 0;
+	line-height: 1em;
+	font-weight: 500;
+	color: #30383a;
+	background: url(/Content/Images/img_pre01/line-hor.gif) 0 100% repeat-x;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	text-shadow: #999;
+}
+
+
+/* Header
+---------------------------------------- */
+
+.theme-default #slider
+{
+	width: 965px; /* Make sure your images are the same size */
+	height: 282px; /* Make sure your images are the same size */
+}
+
+.header-bg
+{
+	background-color:#004976;
+	height: 509px;
+}
+
+/* Logo */
+.logo
+{
+	position: absolute;
+	left: 9px;
+	top: 15px;
+}
+
+/* Navigation */
+header nav
+{
+	position: absolute;
+	right: 0;
+	top: 93px;
+}
+header nav ul li
+{
+	float: left;
+}
+header nav li a
+{
+	float: left;
+	padding: 12px 21px 18px 21px;
+	font-size: 18px;
+	line-height: 1.2em;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #004376;
+	position: relative;
+}
+
+header nav li a:hover
+{
+	float: left;
+	padding: 12px 21px 18px 21px;
+	font-size: 18px;
+	line-height: 1.2em;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #004376;
+	position: relative;
+    background-color: #33B1C5;
+}
+
+header nav li a.current
+{
+	background: #006195;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	behavior: url(js/PIE.htc);
+}
+
+
+/* Main banner */
+.main-banner
+{
+	display: block;
+	position: absolute;
+	left: 9px;
+	top: 153px;
+}
+
+/* Content
+---------------------------------------- */
+#content
+{
+}
+.row
+{
+	padding-bottom: 34px;
+}
+
+.post
+{
+	padding-bottom: 15px;
+	line-height: 200%;
+}
+
+.title
+{
+	text-decoration: none;
+	text-shadow: #999;
+}
+
+.byline
+{
+	border-bottom: 2px solid #000000;
+}
+
+.entry
+{
+	padding: 0;
+	text-align: justify;
+}
+
+.list2 dt
+{
+	font-weight: bold;
+	font-size: 13px;
+	color: #454f51;
+}
+.list2 dd
+{
+	border-bottom: 1px dashed #e1e5e6;
+	padding: 0 0 10px 0;
+	margin-bottom: 11px;
+}
+.list2 dd:last-child
+{
+	border-bottom: none;
+}
+
+
+/* Calendar 
+---------------------------------*/
+
+#calendar_wrap
+{
+	padding: 0 15px;
+	text-align: center;
+}
+
+#calendar_wrap table
+{
+	width: 100%;
+}
+
+#calendar_wrap th
+{
+}
+
+#calendar_wrap td
+{
+	color: black;
+}
+
+#calendar_wrap tfoot td
+{
+	border: none;
+}
+
+#calendar_wrap tfoot td#prev
+{
+	text-align: left;
+	font-weight: bold;
+	border: none;
+}
+
+#calendar_wrap tfoot td#prev a
+{
+	border: none;
+}
+
+#calendar_wrap tfoot td#next
+{
+	text-align: right;
+	font-weight: bold;
+	border: none;
+}
+
+#calendar_wrap tfoot td#next a
+{
+	border: none;
+}
+
+#calendar_wrap span.c1
+{
+	color: black;
+	text-align: center;
+	background: #FFFFFF;
+}
+#calendar_wrap span.c2
+{
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	background: #FFFFFF;
+}
+#calendar_wrap span.c3
+{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	background: #ccc;
+}
+
+#calendar_wrap span.c4
+{
+	background: #069;
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+/* Footer
+---------------------------------------- */
+.footer
+{
+	background-color: #004976;
+	height: 50px;
+}
+
+footer
+{
+	color: #2792c5;
+	background-color:#004976;
+	padding: 25px 0 25px 0;
+}
+
+
+footer a
+{
+	text-decoration: none;
+	color: #ABCABC;
+}
+footer a:hover
+{
+	text-decoration: underline;
+}
+
+
+/* Copy */
+footer .copy
+{
+	float: left;
+}
+footer .copy a
+{
+	color: #fff;
+}
+
+/* Footer navigation */
+footer nav
+{
+	float: right;
+}
+footer nav li
+{
+	display: inline;
+	border-left: 1px solid #0e74a6;
+	padding: 0 8px 0 11px;
+}
+footer nav li:first-child
+{
+	border: none;
+}
+footer nav li a:hover, footer nav li a.current
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+
